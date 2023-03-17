@@ -1,4 +1,4 @@
-# postgres-backup-lambda
+# Postgres Backup for AWS Lambda
 AWS Lambda function that copies a schema from one postgres database to another.
 
 The function uses `pg_dump` and `pg_restore` to copy the contents of a postgres database schema to another database. The function can be used to copy a schema from a production database to a development database, or to copy a schema from a production database to a staging database. 
